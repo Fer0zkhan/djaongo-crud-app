@@ -1,0 +1,14 @@
+{% load widget_tweaks %}
+<form method="POST">
+    {% for field in form %}
+        <div class="form-group">
+            <label>{{ field.label }}</label>
+            {% render_field field class="form-control" %}
+            <small style="color: red">
+                {{ field.errors }}
+            </small>
+        </div>
+    {% endfor %}
+    {% csrf_token %}
+    <button class="btn btn-success">{{ title }}</button>
+</form>
