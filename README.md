@@ -27,7 +27,7 @@ This is python development environment. In order to run and test please follow.
 
 `pip --version`
 
---if you already have installed please skip above steps.
+>if you already have installed please skip above steps.
 Create Virtual environment and install requirements by
 
 `pip install virtualenv`
@@ -38,6 +38,6 @@ Create Virtual environment and install requirements by
 
 `pip install -r requirements.txt`
 
---Run development server python3 manage.py runserver
+>Run development server python3 manage.py runserver
 
-Visit [http://127.0.0.1:8000]
+>Visit [http://127.0.0.1:8000]
