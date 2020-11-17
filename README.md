@@ -6,7 +6,9 @@ This is python development environment. In order to run and test please follow.
 # MacOs
 
 `brew install python3`
+
 `brew install python3-pip`
+
 `brew install python-pip`
 
 # Linux
